@@ -2,19 +2,19 @@ import React from 'react'
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom'
 import Nav from './components/Nav/Nav'
 import HomePage from './pages/HomePage/HomePage'
-import MyAccountPage from './pages/MyAccountPage/MyAccountPage'
+
 import Pokedex from './pages/PokedexPage/Pokedex'
-import UserlistPage from './pages/UserlistPage/UserlistPage'
+import Poketrainer from './pages/PoketrainerPage/Poketrainer'
+
 
 const App = () => {
   return (
     <Router>
       <Nav />
       <Switch>
-        <Route path="" component={HomePage}/>
-        <Route path="" component={MyAccountPage} />
-        <Route path="" component={Pokedex} />
-        <Route path="" component={UserlistPage} />
+        <Route path="/" exact component={HomePage}/>
+        <Route path="/pokedex" component={Pokedex} />
+        <Route path="/poketrainer" component={Poketrainer}/>
       </Switch>
     </Router>
   )
