@@ -1,4 +1,33 @@
 .Nav{
     background: black;
     color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .logo{
+        font-size: 30px;
+    }
+    .navlinks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+        list-style: none;
+        .link{
+            color: whitesmoke;
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 15px;
+        }
+    }
+    .btn{
+        padding: 1.5em;
+        margin: 1em;
+        .link{
+            color: whitesmoke;
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 15px;
+        }
+    }
 }

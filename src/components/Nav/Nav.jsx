@@ -29,12 +29,12 @@ const Nav = () => {
 
     return (
         <div className="Nav">
-            <h3>Nav</h3>
+            <h3 className="logo">Pkmn-web</h3>
             <ul className="navlinks">
                 {navList.slice(0,3).map(link => {
                     return(
                         <li>
-                            <Link to={link.href}>{link.name}</Link>
+                            <Link className="link" to={link.href}>{link.name}</Link>
                         </li>
                     )
                 })}
@@ -44,8 +44,8 @@ const Nav = () => {
                 {
                     navList.slice(3,5).map(link => {
                         return(
-                            <button>
-                                <Link to={link.href}>{link.name}</Link>
+                            <button className="btn">
+                                <Link className="link" to={link.href}>{link.name}</Link>
                             </button>
                         )
                     })
