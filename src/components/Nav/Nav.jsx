@@ -3,31 +3,54 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 
 const Nav = () => {
+
+    const navList = [
+        {
+            name: "Home",
+            href: "/"
+        },
+        {
+            name: "Pokedex",
+            href: "/pokedex"
+        },
+        {
+            name: "Poketrainer",
+            href: "/poketrainer"
+        },
+        {
+            name: "Sign-in",
+            href: "/sign-in"
+        },
+        {
+            name: "Sign-Up",
+            href: "/sign-up"
+        },
+    ]
+
     return (
         <div className="Nav">
             <h3>Nav</h3>
             <ul className="navlinks">
-                <li>
-                    <Link to="" smoooth >
-                        Home
-                    </Link>
-                </li>
-                <li>
-                    <Link to="" smoooth >
-                        MyAccount
-                    </Link>
-                </li>
-                <li>
-                    <Link to="" smoooth >
-                        Pokedex
-                    </Link>
-                </li>
-                <li>
-                    <Link to="" smoooth >
-                        Userlist
-                    </Link>
-                </li>
+                {navList.slice(0,3).map(link => {
+                    return(
+                        <li>
+                            <Link to={link.href}>{link.name}</Link>
+                        </li>
+                    )
+                })}
             </ul>
+
+            <div className="signBtns">
+                {
+                    navList.slice(3,5).map(link => {
+                        return(
+                            <button>
+                                <Link to={link.href}>{link.name}</Link>
+                            </button>
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }
