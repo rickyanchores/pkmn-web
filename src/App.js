@@ -11,7 +11,7 @@ const App = () => {
     <Router>
       <Nav />
       <Switch>
-        <Route path="/" component={HomePage}/>
+        <Route path="/" exact component={HomePage}/>
         <Route path="/pokedex" component={Pokedex} />
         <Route path="/poketrainer" component={Poketrainer} />
       </Switch>
