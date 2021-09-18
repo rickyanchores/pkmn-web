@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/pkmn-web/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/pkmn-web/static/js/main.e415aedd.chunk.js",
-    "main.js.map": "/pkmn-web/static/js/main.e415aedd.chunk.js.map",
+    "main.css": "/pkmn-web/static/css/main.5c81dcaa.chunk.css",
+    "main.js": "/pkmn-web/static/js/main.b99a4bc9.chunk.js",
+    "main.js.map": "/pkmn-web/static/js/main.b99a4bc9.chunk.js.map",
     "runtime-main.js": "/pkmn-web/static/js/runtime-main.cbf79e26.js",
     "runtime-main.js.map": "/pkmn-web/static/js/runtime-main.cbf79e26.js.map",
     "static/js/2.fb8dca6d.chunk.js": "/pkmn-web/static/js/2.fb8dca6d.chunk.js",
     "static/js/2.fb8dca6d.chunk.js.map": "/pkmn-web/static/js/2.fb8dca6d.chunk.js.map",
     "index.html": "/pkmn-web/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/pkmn-web/static/css/main.6dea0f05.chunk.css.map",
+    "static/css/main.5c81dcaa.chunk.css.map": "/pkmn-web/static/css/main.5c81dcaa.chunk.css.map",
     "static/js/2.fb8dca6d.chunk.js.LICENSE.txt": "/pkmn-web/static/js/2.fb8dca6d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cbf79e26.js",
     "static/js/2.fb8dca6d.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.e415aedd.chunk.js"
+    "static/css/main.5c81dcaa.chunk.css",
+    "static/js/main.b99a4bc9.chunk.js"
   ]
 }
