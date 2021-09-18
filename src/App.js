@@ -11,9 +11,9 @@ const App = () => {
     <Router>
       <Nav />
       <Switch>
-        <Route path="" component={HomePage}/>
-        <Route path="" component={Pokedex} />
-        <Route path="" component={Poketrainer} />
+        <Route path="/" component={HomePage}/>
+        <Route path="/pokedex" component={Pokedex} />
+        <Route path="/poketrainer" component={Poketrainer} />
       </Switch>
     </Router>
   )
