@@ -1,6 +1,13 @@
 //IMPORT
 @import "./components/Nav/Nav.scss";
 @import "./components/Buttons/Button.scss";
+@import "./components/Cards/Cards.scss";
+@import "./components/Footer/Footer.scss";
+@import "./components/Slider/Slider.scss";
+//PAGES
+@import "./pages/HomePage/HomePage.scss";
+@import "./pages/PokedexPage/PokedexPage.scss";
+@import "./pages/PoketrainerPage/Poketrainer.scss";
 
 body {
   margin: 0;

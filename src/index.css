@@ -4,6 +4,47 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Nav .logo {
+  font-size: 30px;
+}
+
+.Nav .navlinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  list-style: none;
+}
+
+.Nav .navlinks .link {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.Nav .btn {
+  padding: 1.5em;
+  margin: 1em;
+}
+
+.Nav .btn .link {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 15px;
 }
 
 .btn {
@@ -12,6 +53,48 @@
   color: white;
   border: none;
   border-radius: 5px;
+}
+
+.HomePage {
+  background: black;
+  color: whitesmoke;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.PokedexPage {
+  background: black;
+  color: whitesmoke;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Poketrainer {
+  background: black;
+  color: whitesmoke;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body {

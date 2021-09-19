@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pokedex = () => {
     return (
-        <div>
+        <div className="PokedexPage">
             Pokedex
         </div>
     )

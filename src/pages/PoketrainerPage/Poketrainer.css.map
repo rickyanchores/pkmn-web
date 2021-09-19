@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,UAAU,EAAE,KAAK;EACjB,KAAK,EAAE,UAAU;EACjB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM;CACtB",
+    "sources": [
+        "Poketrainer.scss"
+    ],
+    "names": [],
+    "file": "Poketrainer.css"
+}
