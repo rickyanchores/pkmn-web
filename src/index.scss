@@ -1,9 +1,16 @@
+
+
 //IMPORT
 @import "./components/Nav/Nav.scss";
 @import "./components/Buttons/Button.scss";
 @import "./components/Cards/Cards.scss";
 @import "./components/Footer/Footer.scss";
 @import "./components/Slider/Slider.scss";
+
+//STYLES
+@import "./styles/colors";
+@import "./styles/components";
+
 //PAGES
 @import "./pages/HomePage/HomePage.scss";
 @import "./pages/PokedexPage/PokedexPage.scss";
