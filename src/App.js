@@ -4,6 +4,7 @@ import Nav from './components/Nav/Nav'
 import HomePage from './pages/HomePage/HomePage'
 import Pokedex from './pages/PokedexPage/Pokedex'
 import Poketrainer from './pages/PoketrainerPage/Poketrainer'
+import Test from './pages/TEST/Test'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/pokedex" component={Pokedex} />
         <Route path="/poketrainer" component={Poketrainer} />
       </Switch>
+      <Test />
     </Router>
   )
 }

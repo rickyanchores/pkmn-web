@@ -6,8 +6,6 @@ const HomePage = () => {
     return (
         <div className="HomePage">
             Homepage
-            <Slider />
-            <Cards />
         </div>
     )
 }
